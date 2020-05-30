@@ -2,10 +2,11 @@
 #define WINSCENE_HPP
 #include <allegro5/allegro_audio.h>
 #include "IScene.hpp"
+#include "StageSelectScene.hpp"
+#include "PlayScene.hpp"
 
-extern int MapId;
-extern int drop_data[STAGE_NUM][ITEM_NUM];
-extern int item_data[ITEM_TYPE_LIMIT];
+#define NUM_AFTER_DECIMAL_POINT 1
+
 
 class WinScene final : public Engine::IScene {
 private:
@@ -13,12 +14,13 @@ private:
 	ALLEGRO_SAMPLE_ID bgmId;
 public:
 	explicit WinScene() = default;
-
+	
 	void Initialize() override;
 	void Terminate() override;
 	void Update(float deltaTime) override;
 	void BackOnClick(int stage);
 	void GenerateDropItem();
+	void WriteItemData();
 };
 
 #endif // WINSCENE_HPP

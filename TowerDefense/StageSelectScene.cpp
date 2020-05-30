@@ -130,7 +130,7 @@ void StageSelectScene::Initialize() {
        // Drop preview.
        ReadDropData();
        for (int j = 0; j < ITEM_NUM; j++) {
-           if (!drop_data[i][j]) {
+           if (!drop_data[i][j].first) {
                continue;
            }
            Engine::Point scale = Engine::Point(110, 110);
@@ -139,11 +139,11 @@ void StageSelectScene::Initialize() {
 
            if (j < PREVIEW_SPACE_X / scale.x) {   // First line is valid.
                STAGE[i]->AddNewObject(new Engine::Image("UI/Black.png", pos.x, pos.y, scale.x - 10, scale.y - 10, 0.5, 0.5));
-               STAGE[i]->AddNewObject(new Engine::Image("item/" + std::to_string(drop_data[i][j]) + ".png", pos.x, pos.y, (scale.x - 10) * 3 / 4, (scale.y - 10) * 3 / 4, 0.5, 0.5));
+               STAGE[i]->AddNewObject(new Engine::Image("item/" + std::to_string(drop_data[i][j].first) + ".png", pos.x, pos.y, (scale.x - 10) * 3 / 4, (scale.y - 10) * 3 / 4, 0.5, 0.5));
            }
            else {   // No more space in the first line.
                STAGE[i]->AddNewObject(new Engine::Image("UI/Black.png", sec_pos.x, sec_pos.y, scale.x - 10, scale.y - 10, 0.5, 0.5));
-               STAGE[i]->AddNewObject(new Engine::Image("item/" + std::to_string(drop_data[i][j]) + ".png", sec_pos.x, sec_pos.y, (scale.x -10) * 3 / 4, (scale.y - 10)* 3 / 4, 0.5, 0.5));
+               STAGE[i]->AddNewObject(new Engine::Image("item/" + std::to_string(drop_data[i][j].first) + ".png", sec_pos.x, sec_pos.y, (scale.x -10) * 3 / 4, (scale.y - 10)* 3 / 4, 0.5, 0.5));
            }
        }
        // Add it to group.
@@ -164,6 +164,62 @@ void StageSelectScene::Initialize() {
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"敵人：", "SV.ttf", 48, 320, 185, 255, 153, 0, 255));
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"掉落物品：", "SV.ttf", 48, 320, h - 455, 255, 153, 0, 255));
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"地圖預覽：", "SV.ttf", 48, 900, 110, 255, 153, 0, 255));
+
+    /* Upgrade */
+    ReadSynthesisData();
+    UI[UPGRADE]->AddNewObject(new Engine::Image("UI/Black.png", 250 + 10, 50, w - 300 - 10, h - 175));
+    for (int i = 0; i < SYNTHESIS_NUM; i++) {
+        SYNTHESIS[i] = new Group();
+        // Basic stuff.
+        upgrade_img[i] = new Engine::Image("UI/White.png", 50, 50 + 100 * i, 200, 100);
+        upgrade_button[i] = new Engine::ImageButton("UI/black.png", "UI/white.png", 50, 50 + 100 * i, 200, 100);
+        upgrade_button[i]->SetOnClickCallback(std::bind(&StageSelectScene::ListOnClick, this, i));
+        upgrade_label[i] = new Engine::Label(std::to_string(i + 1), "pirulen.ttf", 48, 150, 100 + 100 * i, 0, 153, 255, 255, 0.5, 0.5);
+        upgrade_description_SV[i] = new Engine::Label(upgrade_description[i], "SV.ttf", 72, 320, 100, 255, 255, 255, 255);
+        upgrade_effect_description_SV[i] = new Engine::Label(upgrade_effect_description[i], "SV.ttf", 48, 320, 255, 255, 255, 255, 255);
+
+        for (int j = 0; j < ITEM_NUM; j++) {
+            if (upgrade_data[i][j].first == -1) {
+                continue;
+            }
+            Engine::Point scale = Engine::Point(110, 110);
+            Engine::Point pos = Engine::Point(375 + (j - 1)* scale.x, 437);
+            Engine::Point sec_pos = Engine::Point(375 + (j - 1 - PREVIEW_SPACE_X / scale.x) * scale.x, 473 + scale.y);
+            int id = upgrade_data[i][j].first;
+            int count = upgrade_data[i][j].second;
+            int item_you_have = (id_to_item[id] == -1) ? 0 : item_data[id_to_item[id]].second;
+            if (j == 0) {
+                SYNTHESIS[i]->AddNewObject(new Engine::Image("item/" + std::to_string(id) + ".png", 1250, 350, (scale.x - 10) * 2.5, (scale.y - 10) * 2.5, 0.5, 0.5));
+            }
+            else if (j - 1 < PREVIEW_SPACE_X / scale.x) {   // First line is valid.
+                SYNTHESIS[i]->AddNewObject(new Engine::Image("UI/Black.png", pos.x, pos.y, scale.x - 10, scale.y - 10, 0.5, 0.5));
+                SYNTHESIS[i]->AddNewObject(new Engine::Image("item/" + std::to_string(id) + ".png", pos.x, pos.y, (scale.x - 10) * 3 / 4, (scale.y - 10) * 3 / 4, 0.5, 0.5));
+                SYNTHESIS[i]->AddNewObject(new Engine::Label(std::to_string(item_you_have) + " / " + std::to_string(count), "SV.ttf", 32, pos.x, pos.y + scale.y / 2 + 3, 255, 255, 255, 255, 0.5, 0));
+            }
+            else {   // No more space in the first line.
+                SYNTHESIS[i]->AddNewObject(new Engine::Image("UI/Black.png", sec_pos.x, sec_pos.y, scale.x - 10, scale.y - 10, 0.5, 0.5));
+                SYNTHESIS[i]->AddNewObject(new Engine::Image("item/" + std::to_string(id) + ".png", sec_pos.x, sec_pos.y, (scale.x - 10) * 3 / 4, (scale.y - 10) * 3 / 4, 0.5, 0.5));
+                SYNTHESIS[i]->AddNewObject(new Engine::Label(std::to_string(item_you_have) + " / " + std::to_string(count), "SV.ttf", 32, sec_pos.x, sec_pos.y + scale.y / 2 + 3, 255, 255, 255, 255, 0.5, 0));
+            }
+        }
+
+        // Add it to group.
+        UI[UPGRADE]->AddNewControlObject(upgrade_button[i]);
+        SYNTHESIS[i]->AddNewObject(upgrade_img[i]);
+        SYNTHESIS[i]->AddNewObject(upgrade_description_SV[i]);
+        SYNTHESIS[i]->AddNewObject(upgrade_effect_description_SV[i]);
+        UI[UPGRADE]->AddNewObject(SYNTHESIS[i]);
+        UI[UPGRADE]->AddNewObject(upgrade_label[i]);
+    }
+    // A button to click for upgrade.
+    upgrade_enter = new Engine::ImageButton("UI/black.png", "UI/white.png", w - 450, h - 225, 400, 100);
+    upgrade_enter->SetOnClickCallback(std::bind(&StageSelectScene::UpgradeOnClick, this));
+    UI[UPGRADE]->AddNewControlObject(upgrade_enter);
+    UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"立刻合成", "SV.ttf", 48, w - 250, h - 175, 0, 153, 255, 255, 0.5, 0.5));
+    // Labels.
+    UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"效果描述：", "SV.ttf", 48, 320, 190, 255, 153, 0, 255));
+    UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"所需物品：", "SV.ttf", 48, 320, h - 515, 255, 153, 0, 255));
+    UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"物品預覽：", "SV.ttf", 48, 1050, 130, 255, 153, 0, 255));
 
     /* Setting */
     // BGM Slider.
@@ -261,6 +317,7 @@ void StageSelectScene::OptionOnClick(int UI_option) {
             for (auto& it : UI[UI_option]->GetObjects()) {
                 it->Visible = true;
             }
+            /*  Do something to the old option if necessary.
             switch (option) {
             case HOME:
                 break;
@@ -275,6 +332,7 @@ void StageSelectScene::OptionOnClick(int UI_option) {
             default:
                 break;
             }
+            */
             switch (UI_option) {
             case HOME:
                 break;
@@ -294,6 +352,12 @@ void StageSelectScene::OptionOnClick(int UI_option) {
                 enter->Visible = true;
                 break;
             case UPGRADE:
+                for (int i = 0; i < SYNTHESIS_NUM; i++) {
+                    bool is_chosen = (i == upgrade_choose);
+                    SYNTHESIS[i]->Visible = is_chosen;
+                    upgrade_button[i]->Visible = !is_chosen;
+                }
+                upgrade_enter->Visible = true;
                 break;
             case SETTING:
                 back_to_menu->Visible = true;
@@ -350,6 +414,23 @@ void StageSelectScene::PlayOnClick() {
     Engine::GameEngine::GetInstance().ChangeScene("play");
 }
 
+void StageSelectScene::ListOnClick(int list) {
+    if (list>= 0 && list < SYNTHESIS_NUM) {
+        SYNTHESIS[list]->Visible = true;
+        SYNTHESIS[upgrade_choose]->Visible = false;
+        upgrade_button[list]->Visible = false;
+        upgrade_button[upgrade_choose]->Visible = true;
+        upgrade_choose = list;
+    }
+    else {
+        Engine::LOG(Engine::ERROR) << "Chosen list is out of range.";
+    }
+}
+
+void StageSelectScene::UpgradeOnClick() {
+    // change to upgrade scene.
+}
+
 void StageSelectScene::BGMSlideOnValueChanged(float value) {
     AudioHelper::ChangeSampleVolume(bgmInstance, value);
     AudioHelper::BGMVolume = value;
@@ -361,11 +442,12 @@ void StageSelectScene::SFXSlideOnValueChanged(float value) {
 void StageSelectScene::ReadItemData() {
     std::string filename = "resources/data/item_data.txt";
     for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
-        item_data[i].first = item_data[i].second = -1;
+        item_data[i].first = item_data[i].second = id_to_item[i] = -1;
     }
     std::ifstream fin(filename);
     for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
         fin >> item_data[i].first >> item_data[i].second;
+        id_to_item[item_data[i].first] = i;
     }
     fin.close();
 }
@@ -405,14 +487,34 @@ void StageSelectScene::ReadDropData() {
     int item_num;
     for (int i = 0; i < STAGE_NUM; i++) {
         for (int j = 0; j < ITEM_NUM; j++) {
-            drop_data[i][j] = 0;
+            drop_data[i][j].first = drop_data[i][j].second = 0;
         }
     }
     std::ifstream fin(filename);
+    fin >> decimal_point;
     for (int i = 0; i < STAGE_NUM; i++) {
         fin >> item_num;
         for (int j = 0; j < item_num; j++) {
-            fin >> drop_data[i][j];
+            fin >> drop_data[i][j].first >> drop_data[i][j].second;
+        }
+    }
+    fin.close();
+}
+
+void StageSelectScene::ReadSynthesisData() {
+    std::string filename = "resources/data/synthesis_data.txt";
+    int item_num;
+    for (int i = 0; i < SYNTHESIS_NUM; i++) {
+        for (int j = 0; j < ITEM_NUM; j++) {
+            upgrade_data[i][j].first = upgrade_data[i][j].second = -1;
+        }
+    }
+    std::ifstream fin(filename);
+    fin >> cheat;
+    for (int i = 0; i < SYNTHESIS_NUM; i++) {
+        fin >> item_num;
+        for (int j = 0; j < item_num; j++) {
+            fin >> upgrade_data[i][j].first >> upgrade_data[i][j].second;
         }
     }
     fin.close();
