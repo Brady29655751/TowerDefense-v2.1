@@ -228,7 +228,7 @@ void StageSelectScene::Initialize() {
     upgrade_not_enough_img = new Engine::Image("UI/Black.png", halfW, halfH, halfW, halfH, 0.5, 0.5);
     upgrade_not_enough_button = new Engine::ImageButton("UI/Black.png", "UI/White.png", halfW, h * 3 / 4 - 150, 0, 0, 0.5, 0.5);
     upgrade_not_enough_button->SetOnClickCallback(std::bind(&StageSelectScene::NotEnoughOnClick, this));
-    upgrade_not_enough_label = new Engine::ChineseLabel(L"＜道具數量不足＞", "SV.ttf", 48, halfW, h / 4 + 100, 255, 255, 255, 255, 0.5, 0.5);
+    upgrade_not_enough_label = new Engine::ChineseLabel(L"【道具數量不足】", "SV.ttf", 48, halfW, h / 4 + 100, 255, 255, 255, 255, 0.5, 0.5);
     upgrade_not_enough_back = new Engine::Label("Back", "pirulen.ttf", 48, halfW, h * 3 / 4 - 150, 0, 153, 255, 255, 0.5, 0.5);
     UPGRADE_NOT_ENOUGH->AddNewObject(upgrade_not_enough_img);
     UPGRADE_NOT_ENOUGH->AddNewObject(upgrade_not_enough_label);
@@ -488,13 +488,14 @@ void StageSelectScene::UpgradeOnClick() {
     else {
         item_data[id_to_item[id]].second++;
     }
-    
     WriteItemData();
     // change to upgrade scene.
     SynthesisScene* scene = dynamic_cast<SynthesisScene*>(Engine::GameEngine::GetInstance().GetScene("synthesis"));
     scene->id = upgrade_data[upgrade_choose][0].first;
-    scene->video_opened = true;
     scene->count = 0;
+    if (upgrade_choose == 5) {
+        scene->video_opened = true;
+    }
     Engine::GameEngine::GetInstance().ChangeScene("synthesis");
 }
 

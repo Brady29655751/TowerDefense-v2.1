@@ -26,50 +26,58 @@
 [INFO] Loaded Resource<image>: resources/images/UI/White.png scaled to 100x100
 [INFO] Loaded Resource<image>: resources/images/item/2.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/2.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/40.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/40.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/19.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/19.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/30.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/30.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/40.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/40.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/39.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/39.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/38.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/38.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 1290x657
 [INFO] Loaded Resource<image>: resources/images/UI/White.png scaled to 200x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 200x100
@@ -85,23 +93,18 @@
 [INFO] Loaded Resource<image>: resources/images/item/23.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_4.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/item/5.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/25.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/31.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_5.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/play/enemy-4.png
 [INFO] Loaded Resource<image>: resources/images/item/6.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/20.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/26.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/32.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_6.jpg scaled to 600x397
-[INFO] Loaded Resource<image>: resources/images/item/27.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/38.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/39.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/12.png scaled to 250x250
 [INFO] Loaded Resource<font>: resources/fonts/SV.ttf with size 32
-[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/27.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/26.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/11.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 800x416
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 550x350
@@ -112,7 +115,21 @@
 [INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
 [INFO] Changed to stage-select scene
 [INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: resources/audios/BGM/King_Main.ogg
+[INFO] Changed to menu scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: resources/audios/select.ogg
+[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 250x250
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
 [INFO] Loaded Resource<image>: resources/images/synthesis/synthesis-bg.jpg scaled to 1600x832
+[INFO] Loaded Resource<audio>: resources/audios/BGM/Ice_Main.ogg
+[INFO] Created<sample_instance>: resources/audios/BGM/Ice_Main.ogg
+[INFO] Changed to synthesis scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: resources/audios/select.ogg
+[INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
 [INFO] Loaded Resource<audio>: resources/audios/astronomia.ogg
 [INFO] Created<sample_instance>: resources/audios/astronomia.ogg
 [INFO] Changed to synthesis scene
@@ -146,147 +163,1035 @@
 [INFO] Set Resources<frame>: resources/videos/27benjamin.ogv scaled to 800x416
 [INFO] Set Resources<frame>: resources/videos/28benjamin.ogv scaled to 800x416
 [INFO] Set Resources<frame>: resources/videos/29benjamin.ogv scaled to 800x416
-[INFO] stopped audio (sample)
+[INFO] Set Resources<frame>: resources/videos/30benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/31benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/32benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/33benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/34benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/35benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/36benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/37benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/38benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/39benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/40benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/41benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/42benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/43benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/44benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/45benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/46benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/47benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/48benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/49benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/50benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/51benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/52benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/53benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/54benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/55benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/56benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/57benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/58benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/59benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/60benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/61benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/62benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/63benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/64benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/65benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/66benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/67benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/68benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/69benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/70benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/71benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/72benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/73benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/74benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/75benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/76benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/77benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/78benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/79benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/80benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/81benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/82benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/83benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/84benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/85benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/86benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/87benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/88benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/89benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/90benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/91benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/92benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/93benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/94benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/95benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/96benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/97benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/98benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/99benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/100benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/101benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/102benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/103benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/104benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/105benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/106benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/107benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/108benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/109benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/110benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/111benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/112benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/113benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/114benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/115benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/116benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/117benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/118benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/119benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/120benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/121benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/122benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/123benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/124benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/125benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/126benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/127benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/128benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/129benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/130benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/131benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/132benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/133benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/134benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/135benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/136benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/137benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/138benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/139benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/140benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/141benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/142benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/143benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/144benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/145benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/146benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/147benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/148benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/149benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/150benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/151benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/152benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/153benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/154benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/155benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/156benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/157benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/158benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/159benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/160benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/161benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/162benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/163benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/164benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/165benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/166benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/167benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/168benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/169benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/170benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/171benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/172benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/173benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/174benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/175benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/176benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/177benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/178benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/179benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/180benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/181benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/182benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/183benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/184benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/185benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/186benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/187benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/188benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/189benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/190benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/191benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/192benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/193benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/194benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/195benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/196benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/197benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/198benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/199benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/200benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/201benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/202benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/203benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/204benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/205benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/206benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/207benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/208benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/209benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/210benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/211benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/212benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/213benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/214benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/215benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/216benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/217benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/218benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/219benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/220benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/221benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/222benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/223benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/224benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/225benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/226benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/227benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/228benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/229benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/230benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/231benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/232benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/233benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/234benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/235benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/236benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/237benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/238benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/239benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/240benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/241benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/242benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/243benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/244benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/245benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/246benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/247benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/248benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/249benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/250benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/251benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/252benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/253benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/254benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/255benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/256benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/257benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/258benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/259benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/260benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/261benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/262benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/263benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/264benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/265benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/266benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/267benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/268benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/269benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/270benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/271benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/272benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/273benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/274benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/275benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/276benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/277benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/278benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/279benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/280benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/281benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/282benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/283benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/284benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/285benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/286benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/287benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/288benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/289benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/290benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/291benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/292benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/293benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/294benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/295benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/296benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/297benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/298benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/299benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/300benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/301benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/302benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/303benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/304benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/305benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/306benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/307benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/308benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/309benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/310benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/311benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/312benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/313benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/314benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/315benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/316benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/317benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/318benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/319benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/320benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/321benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/322benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/323benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/324benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/325benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/326benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/327benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/328benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/329benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/330benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/331benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/332benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/333benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/334benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/335benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/336benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/337benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/338benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/339benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/340benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/341benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/342benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/343benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/344benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/345benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/346benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/347benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/348benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/349benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/350benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/351benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/352benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/353benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/354benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/355benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/356benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/357benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/358benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/359benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/360benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/361benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/362benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/363benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/364benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/365benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/366benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/367benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/368benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/369benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/370benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/371benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/372benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/373benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/374benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/375benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/376benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/377benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/378benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/379benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/380benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/381benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/382benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/383benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/384benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/385benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/386benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/387benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/388benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/389benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/390benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/391benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/392benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/393benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/394benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/395benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/396benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/397benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/398benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/399benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/400benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/401benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/402benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/403benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/404benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/405benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/406benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/407benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/408benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/409benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/410benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/411benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/412benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/413benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/414benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/415benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/416benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/417benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/418benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/419benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/420benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/421benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/422benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/423benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/424benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/425benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/426benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/427benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/428benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/429benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/430benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/431benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/432benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/433benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/434benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/435benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/436benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/437benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/438benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/439benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/440benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/441benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/442benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/443benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/444benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/445benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/446benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/447benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/448benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/449benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/450benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/451benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/452benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/453benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/454benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/455benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/456benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/457benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/458benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/459benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/460benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/461benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/462benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/463benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/464benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/465benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/466benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/467benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/468benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/469benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/470benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/471benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/472benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/473benjamin.ogv scaled to 800x416
+[INFO] Set Resources<frame>: resources/videos/474benjamin.ogv scaled to 800x416
 [INFO] Created<sample_instance>: resources/audios/select.ogg
-[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 75x75
 [INFO] Changed to stage-select scene
 [INFO] stopped audio (sample)
 [INFO] Created<sample_instance>: resources/audios/BGM/King_Main.ogg
 [INFO] Changed to menu scene
-[INFO] stopped audio (sample)
-[INFO] Created<sample_instance>: resources/audios/select.ogg
-[INFO] Changed to stage-select scene
 [INFO] Game Terminating...
 [INFO] stopped audio (sample)
 [INFO] Game terminated
 [INFO] Game end
 [INFO] Destroyed Resource<image>: UI/Black.png?320x100
 [INFO] Destroyed Resource<image>: item/35.png?250x250
+[INFO] Destroyed Resource<image>: 206benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 141benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: icon.png
 [INFO] Destroyed Resource<image>: UI/Black.png?400x100
-[INFO] Destroyed Resource<image>: item/34.png?250x250
 [INFO] Destroyed Resource<image>: item/30.png?75x75
+[INFO] Destroyed Resource<image>: item/34.png?250x250
+[INFO] Destroyed Resource<image>: 148benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 355benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 416benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: menu/menu_bg.png?1600x832
 [INFO] Destroyed Resource<image>: item/34.png?75x75
+[INFO] Destroyed Resource<image>: 98benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/Black.png
 [INFO] Destroyed Resource<image>: item/1.png?250x250
 [INFO] Destroyed Resource<image>: item/25.png?75x75
+[INFO] Destroyed Resource<image>: 407benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/14.png?250x250
+[INFO] Destroyed Resource<image>: 155benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/White.png
-[INFO] Destroyed Resource<image>: UI/Black.png?200x100
+[INFO] Destroyed Resource<image>: 278benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 128benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/1.png?75x75
 [INFO] Destroyed Resource<image>: item/14.png?75x75
 [INFO] Destroyed Resource<image>: stage-select/stage_select_bg.jpg?1600x832
+[INFO] Destroyed Resource<image>: 274benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/White.png?320x100
-[INFO] Destroyed Resource<image>: stage-select/end.png
-[INFO] Destroyed Resource<image>: item/19.png?250x250
-[INFO] Destroyed Resource<image>: 6benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 301benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/4.png?75x75
+[INFO] Destroyed Resource<image>: 6benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 107benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 392benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 451benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/19.png?250x250
+[INFO] Destroyed Resource<image>: stage-select/end.png
+[INFO] Destroyed Resource<image>: 330benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/White.png?100x100
+[INFO] Destroyed Resource<image>: 40benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/Black.png?1500x657
+[INFO] Destroyed Resource<image>: 55benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: UI/Black.png?100x100
+[INFO] Destroyed Resource<image>: item/17.png?250x250
 [INFO] Destroyed Resource<image>: item/2.png?250x250
+[INFO] Destroyed Resource<image>: 372benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/17.png?75x75
+[INFO] Destroyed Resource<image>: 350benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/2.png?75x75
-[INFO] Destroyed Resource<image>: item/21.png?75x75
-[INFO] Destroyed Resource<image>: item/18.png?250x250
-[INFO] Destroyed Resource<image>: item/18.png?75x75
-[INFO] Destroyed Resource<image>: item/4.png?250x250
-[INFO] Destroyed Resource<image>: stage-select/map_preview_2.jpg?600x397
-[INFO] Destroyed Resource<image>: item/7.png?250x250
-[INFO] Destroyed Resource<image>: item/3.png?75x75
-[INFO] Destroyed Resource<image>: item/12.png?75x75
-[INFO] Destroyed Resource<image>: UI/White.png?200x100
-[INFO] Destroyed Resource<image>: item/7.png?75x75
-[INFO] Destroyed Resource<image>: item/3.png?250x250
-[INFO] Destroyed Resource<image>: item/24.png?250x250
-[INFO] Destroyed Resource<image>: play/enemy-1.png
-[INFO] Destroyed Resource<image>: item/24.png?75x75
-[INFO] Destroyed Resource<image>: UI/Black.png?1290x657
-[INFO] Destroyed Resource<image>: item/8.png?250x250
-[INFO] Destroyed Resource<image>: item/15.png?75x75
-[INFO] Destroyed Resource<image>: item/8.png?75x75
-[INFO] Destroyed Resource<image>: item/40.png?250x250
-[INFO] Destroyed Resource<image>: item/13.png?250x250
-[INFO] Destroyed Resource<image>: item/40.png?75x75
-[INFO] Destroyed Resource<image>: item/13.png?75x75
-[INFO] Destroyed Resource<image>: play/enemy-4.png
-[INFO] Destroyed Resource<image>: item/9.png?250x250
-[INFO] Destroyed Resource<image>: item/36.png?250x250
-[INFO] Destroyed Resource<image>: item/9.png?75x75
-[INFO] Destroyed Resource<image>: item/28.png?250x250
-[INFO] Destroyed Resource<image>: item/33.png?250x250
-[INFO] Destroyed Resource<image>: item/28.png?75x75
-[INFO] Destroyed Resource<image>: item/10.png?250x250
-[INFO] Destroyed Resource<image>: item/10.png?75x75
-[INFO] Destroyed Resource<image>: item/36.png?75x75
-[INFO] Destroyed Resource<image>: item/21.png?250x250
+[INFO] Destroyed Resource<image>: item/19.png?75x75
 [INFO] Destroyed Resource<image>: 11benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/22.png?250x250
 [INFO] Destroyed Resource<image>: item/22.png?75x75
-[INFO] Destroyed Resource<image>: item/35.png?75x75
+[INFO] Destroyed Resource<image>: item/37.png?250x250
+[INFO] Destroyed Resource<image>: item/37.png?75x75
+[INFO] Destroyed Resource<image>: 297benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/7.png?250x250
+[INFO] Destroyed Resource<image>: item/3.png?75x75
+[INFO] Destroyed Resource<image>: item/16.png?75x75
+[INFO] Destroyed Resource<image>: 50benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 131benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/7.png?75x75
 [INFO] Destroyed Resource<image>: item/15.png?250x250
-[INFO] Destroyed Resource<image>: item/19.png?75x75
+[INFO] Destroyed Resource<image>: 44benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/8.png?250x250
+[INFO] Destroyed Resource<image>: item/15.png?75x75
+[INFO] Destroyed Resource<image>: item/30.png?250x250
+[INFO] Destroyed Resource<image>: stage-select/map_preview_6.jpg?600x397
+[INFO] Destroyed Resource<image>: 412benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 351benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/8.png?75x75
+[INFO] Destroyed Resource<image>: 88benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/28.png?75x75
+[INFO] Destroyed Resource<image>: item/33.png?250x250
 [INFO] Destroyed Resource<image>: item/33.png?75x75
 [INFO] Destroyed Resource<image>: stage-select/map_preview_1.jpg?600x397
+[INFO] Destroyed Resource<image>: item/4.png?250x250
+[INFO] Destroyed Resource<image>: item/3.png?250x250
+[INFO] Destroyed Resource<image>: 54benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/16.png?250x250
+[INFO] Destroyed Resource<image>: play/enemy-4.png
+[INFO] Destroyed Resource<image>: item/9.png?250x250
+[INFO] Destroyed Resource<image>: item/9.png?75x75
+[INFO] Destroyed Resource<image>: 263benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 304benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/21.png?75x75
+[INFO] Destroyed Resource<image>: item/18.png?250x250
+[INFO] Destroyed Resource<image>: 115benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/18.png?75x75
+[INFO] Destroyed Resource<image>: 143benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/24.png?250x250
+[INFO] Destroyed Resource<image>: item/24.png?75x75
+[INFO] Destroyed Resource<image>: item/10.png?250x250
+[INFO] Destroyed Resource<image>: 238benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/10.png?75x75
+[INFO] Destroyed Resource<image>: 167benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/13.png?250x250
+[INFO] Destroyed Resource<image>: 134benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/40.png?250x250
+[INFO] Destroyed Resource<image>: item/13.png?75x75
+[INFO] Destroyed Resource<image>: item/40.png?75x75
+[INFO] Destroyed Resource<image>: item/28.png?250x250
+[INFO] Destroyed Resource<image>: 198benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 82benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 220benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/39.png?250x250
+[INFO] Destroyed Resource<image>: 228benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/39.png?75x75
+[INFO] Destroyed Resource<image>: item/38.png?250x250
+[INFO] Destroyed Resource<image>: 214benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/38.png?75x75
+[INFO] Destroyed Resource<image>: 119benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/21.png?250x250
+[INFO] Destroyed Resource<image>: 116benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 444benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/35.png?75x75
+[INFO] Destroyed Resource<image>: 334benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: UI/Black.png?1290x657
+[INFO] Destroyed Resource<image>: UI/White.png?200x100
+[INFO] Destroyed Resource<image>: 162benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: UI/Black.png?200x100
+[INFO] Destroyed Resource<image>: 296benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 433benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 284benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: play/enemy-1.png
+[INFO] Destroyed Resource<image>: item/12.png?75x75
+[INFO] Destroyed Resource<image>: 193benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 360benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: stage-select/map_preview_2.jpg?600x397
 [INFO] Destroyed Resource<image>: play/enemy-2.png
-[INFO] Destroyed Resource<image>: stage-select/map_preview_6.jpg?600x397
-[INFO] Destroyed Resource<image>: item/30.png?250x250
 [INFO] Destroyed Resource<image>: item/29.png?75x75
+[INFO] Destroyed Resource<image>: 86benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 224benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: stage-select/map_preview_3.jpg?600x397
 [INFO] Destroyed Resource<image>: play/enemy-3.png
+[INFO] Destroyed Resource<image>: 270benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: play/enemy-3-head.png
 [INFO] Destroyed Resource<image>: item/23.png?75x75
+[INFO] Destroyed Resource<image>: 294benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: stage-select/map_preview_4.jpg?600x397
-[INFO] Destroyed Resource<image>: 12benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 331benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/5.png?75x75
+[INFO] Destroyed Resource<image>: 12benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/36.png?75x75
 [INFO] Destroyed Resource<image>: item/31.png?75x75
+[INFO] Destroyed Resource<image>: 248benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: stage-select/map_preview_5.jpg?600x397
 [INFO] Destroyed Resource<image>: item/6.png?75x75
-[INFO] Destroyed Resource<image>: item/12.png?250x250
-[INFO] Destroyed Resource<image>: item/16.png?75x75
+[INFO] Destroyed Resource<image>: 51benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 437benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/20.png?75x75
-[INFO] Destroyed Resource<image>: item/26.png?75x75
+[INFO] Destroyed Resource<image>: 280benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 106benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 393benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 450benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/32.png?75x75
-[INFO] Destroyed Resource<image>: item/37.png?75x75
-[INFO] Destroyed Resource<image>: item/27.png?75x75
-[INFO] Destroyed Resource<image>: item/38.png?75x75
-[INFO] Destroyed Resource<image>: item/39.png?75x75
-[INFO] Destroyed Resource<image>: item/17.png?250x250
+[INFO] Destroyed Resource<image>: 276benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/27.png?250x250
+[INFO] Destroyed Resource<image>: item/26.png?250x250
+[INFO] Destroyed Resource<image>: 185benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 310benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: item/11.png?250x250
 [INFO] Destroyed Resource<image>: UI/Black.png?800x416
 [INFO] Destroyed Resource<image>: UI/Black.png?550x350
+[INFO] Destroyed Resource<image>: 370benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: stage-select/slider.png
 [INFO] Destroyed Resource<image>: stage-select/slider-blue.png
+[INFO] Destroyed Resource<image>: 207benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: stage-select/bar.png?190x4
+[INFO] Destroyed Resource<image>: 195benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 366benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: item/36.png?250x250
 [INFO] Destroyed Resource<image>: synthesis/synthesis-bg.jpg?1600x832
+[INFO] Destroyed Resource<image>: 85benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 227benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 219benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 0benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 218benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 1benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 2benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 3benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 4benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 5benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 7benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 211benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 8benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 210benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 9benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 10benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 13benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 14benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 179benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 15benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 178benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 16benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 17benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 18benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 175benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 19benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 174benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 20benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 246benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 21benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 247benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 22benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 244benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 23benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 245benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 24benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 242benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 25benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 243benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 26benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 240benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 27benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 241benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 28benjamin.ogv?800x416
 [INFO] Destroyed Resource<image>: 29benjamin.ogv?800x416
-[INFO] Destroyed Resource<image>: item/17.png?75x75
+[INFO] Destroyed Resource<image>: 30benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 252benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 31benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 253benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 32benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 250benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 33benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 251benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 34benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 256benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 379benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 35benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 257benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 378benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 36benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 254benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 37benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 255benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 38benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 375benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 39benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 374benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 41benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 42benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 43benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 45benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 46benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 47benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 48benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 49benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 52benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 53benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 56benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 57benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 58benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 59benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 60benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 61benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 62benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 63benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 64benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 65benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 66benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 67benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 68benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 69benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 70benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 71benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 72benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 73benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 74benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 75benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 76benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 77benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 78benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 79benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 80benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 222benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 81benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 223benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 83benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 221benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 84benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 226benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 87benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 225benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 89benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 90benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 236benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 91benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 237benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 92benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 234benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 93benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 235benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 94benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 232benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 95benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 233benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 96benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 230benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 97benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 231benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 99benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 100benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 395benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 101benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 394benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 102benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 397benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 103benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 396benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 104benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 391benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 105benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 390benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 108benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 109benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 110benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 111benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 112benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 113benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 114benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 117benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 118benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 120benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 121benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 122benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 123benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 124benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 125benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 126benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 127benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 129benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 130benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 132benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 133benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 135benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 136benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 137benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 138benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 139benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 140benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 142benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 144benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 359benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 145benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 358benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 146benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 147benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 149benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 354benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 402benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 150benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 403benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 151benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 400benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 152benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 401benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 153benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 406benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 154benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 404benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 156benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 405benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 157benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 158benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 159benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 160benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 161benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 163benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 164benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 165benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 166benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 168benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 169benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 170benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 171benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 172benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 173benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 176benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 177benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 180benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 315benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 181benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 314benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 182benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 317benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 183benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 316benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 184benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 311benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 186benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 313benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 187benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 312benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 188benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 189benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 190benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 363benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 191benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 362benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 192benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 361benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 194benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 367benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 196benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 365benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 197benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 364benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 199benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 200benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 201benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 202benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 203benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 204benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 205benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 208benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 209benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 212benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 213benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 215benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 216benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 217benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 229benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 239benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 249benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 258benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 377benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 259benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 376benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 260benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 261benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 262benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 264benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 265benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 266benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 267benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 268benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 269benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 271benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 272benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 273benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 275benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 277benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 279benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 436benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 281benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 435benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 282benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 434benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 283benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 432benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 285benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 431benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 286benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 430benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 287benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 288benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 289benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 290benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 291benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 292benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 293benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 295benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 298benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 299benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 300benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 302benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 303benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 305benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 306benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 307benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 308benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 309benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 318benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 319benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 320benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 321benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 322benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 323benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 324benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 325benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 326benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 327benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 328benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 329benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 332benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 333benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 335benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 336benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 337benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 338benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 339benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 340benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 341benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 342benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 343benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 344benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 345benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 346benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 347benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 348benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 349benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 411benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 352benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 410benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 353benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 356benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 357benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 368benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 369benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 371benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 373benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 380benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 381benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 382benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 383benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 384benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 385benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 386benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 387benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 388benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 389benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 398benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 399benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 408benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 409benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 413benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 414benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 415benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 417benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 418benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 419benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 420benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 421benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 422benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 423benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 424benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 425benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 426benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 427benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 428benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 429benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 438benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 439benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 440benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 441benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 442benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 443benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 445benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 446benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 447benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 448benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 449benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 452benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 453benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 454benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 455benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 456benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 457benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 458benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 459benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 460benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 461benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 462benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 463benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 464benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 465benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 466benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 467benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 468benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 469benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 470benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 471benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 472benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 473benjamin.ogv?800x416
+[INFO] Destroyed Resource<image>: 474benjamin.ogv?800x416
 [INFO] Destroyed Resource<font>: SV.ttf?72
 [INFO] Destroyed Resource<font>: pirulen.ttf?48
 [INFO] Destroyed Resource<font>: SV.ttf?48
@@ -294,7 +1199,9 @@
 [INFO] Destroyed Resource<font>: pirulen.ttf?28
 [INFO] Destroyed<sample_instance>: BGM/King_Main.ogg
 [INFO] Destroyed<sample_instance>: select.ogg
+[INFO] Destroyed<sample_instance>: BGM/Ice_Main.ogg
 [INFO] Destroyed<sample_instance>: astronomia.ogg
 [INFO] Destroyed Resource<audio>: BGM/King_Main.ogg
 [INFO] Destroyed Resource<audio>: select.ogg
+[INFO] Destroyed Resource<audio>: BGM/Ice_Main.ogg
 [INFO] Destroyed Resource<audio>: astronomia.ogg

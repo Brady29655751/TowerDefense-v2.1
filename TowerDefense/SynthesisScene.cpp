@@ -34,15 +34,21 @@ void SynthesisScene::Initialize() {
 	AddNewObject(new Engine::Label("Back", "pirulen.ttf", 48, halfW, halfH * 7 / 4, 0, 153, 255, 255, 0.5, 0.5));
 
 	// Prepare BGM and Video.
-	bgmInstance = AudioHelper::PlaySample("astronomia.ogg", false, AudioHelper::BGMVolume);
-	video_benjamin = al_open_video("resources/videos/benjamin.ogv");
+	
+	if (video_opened) {
+		bgmInstance = AudioHelper::PlaySample("astronomia.ogg", false, AudioHelper::BGMVolume);
+		video_benjamin = al_open_video("resources/videos/benjamin.ogv");
+	} else {
+		bgmInstance = AudioHelper::PlaySample("BGM/Ice_Main.ogg", true, AudioHelper::BGMVolume * 3);
+	}
 }
 
 void SynthesisScene::Update(float deltaTime) {
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
 	int h = Engine::GameEngine::GetInstance().GetScreenSize().y;
 	Engine::Resources& res = Engine::Resources::GetInstance();
-
+	Engine::Point pos = Engine::Point(w / 2, h / 2 + 30);
+	Engine::Point scale = Engine::Point(250, 250);
 	if (video_opened) {
 		al_start_video(video_benjamin, al_get_default_mixer());
 		video_frame = al_get_video_frame(video_benjamin);
@@ -56,12 +62,16 @@ void SynthesisScene::Update(float deltaTime) {
 				video_opened = false;
 				// Create these things.
 				AddNewObject(new Engine::Image("UI/Black.png", w / 2, h / 2, w / 2, h / 2, 0.5, 0.5));
-				AddNewObject(new Engine::ChineseLabel(L"合成成功！", "SV.ttf", 48, w / 2, h / 3 + 10, 255, 255, 255, 255, 0.5, 1));
-				Engine::Point pos = Engine::Point(w / 2, h / 2 + 100);
-				Engine::Point scale = Engine::Point(250, 250);
-				AddNewObject(new Engine::Image("item/" + std::to_string(id) + ".png", pos.x, pos.y, scale.x, scale.y, 0.5, 0.5));
+				AddNewObject(new Engine::ChineseLabel(L"【合成成功】", "SV.ttf", 48, w / 2, h / 3 + 10, 255, 255, 255, 255, 0.5, 1));
+				AddNewObject(new Engine::ChineseLabel(L"上上下下左右左右", "SV.ttf", 48, pos.x, pos.y - 30, 255, 153, 0, 255, 0.5, 0.5));
+				AddNewObject(new Engine::ChineseLabel(L"B A Shift Enter", "SV.ttf", 48, pos.x, pos.y + 70, 255, 153, 0, 255, 0.5, 0.5));
 			}
 		}
+	}
+	else if (count == 0) {
+		AddNewObject(new Engine::Image("UI/Black.png", w / 2, h / 2, w / 2, h / 2, 0.5, 0.5));
+		AddNewObject(new Engine::ChineseLabel(L"合成成功！", "SV.ttf", 48, w / 2, h / 3 + 10, 255, 255, 255, 255, 0.5, 1));
+		AddNewObject(new Engine::Image("item/" + std::to_string(id) + ".png", pos.x, pos.y, scale.x, scale.y, 0.5, 0.5));
 	}
 	IScene::Update(deltaTime);
 }

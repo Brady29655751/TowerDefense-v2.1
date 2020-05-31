@@ -17,7 +17,7 @@ public:
 	explicit SynthesisScene() = default;
 
 	int count = 0;
-	bool video_opened = true;
+	bool video_opened = false;
 	int id = 0;  // item id.
 
 	void Initialize() override;
