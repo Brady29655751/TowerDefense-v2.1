@@ -15,6 +15,7 @@ namespace Engine {
 	const std::string Resources::bitmapPathPrefix = "resources/images/";
 	const std::string Resources::fontPathPrefix = "resources/fonts/";
 	const std::string Resources::samplePathPrefix = "resources/audios/";
+	const std::string Resources::videoPathPrefix = "resources/videos/";
 	Resources::Resources() = default;
 	Resources::~Resources() {
 		try {
@@ -86,6 +87,28 @@ namespace Engine {
 		LOG(INFO) << "Loaded Resource<image>: " << bitmapPath << " scaled to " << width << "x" << height;
 		bitmaps[idx] = std::shared_ptr<ALLEGRO_BITMAP>(resized_bmp, al_destroy_bitmap);
 		return bitmaps[idx];
+	}
+	void Resources::SetBitmap(std::string name, ALLEGRO_BITMAP* bitmap, int width, int height){
+		std::string idx = name + '?' + std::to_string(width) + 'x' + std::to_string(height);
+		if (bitmaps.count(idx) != 0)
+			return;
+		std::string videoPath = videoPathPrefix + name;
+		ALLEGRO_BITMAP* bmp = bitmap;
+		if (!bmp) throw Allegro5Exception(("failed to set frame: " + videoPath).c_str());
+
+		ALLEGRO_BITMAP* resized_bmp = al_create_bitmap(width, height);
+		ALLEGRO_BITMAP* prev_target = al_get_target_bitmap();
+		if (!resized_bmp) throw Allegro5Exception(("failed to create bitmap when creating resized frame: " + videoPath).c_str());
+		al_set_target_bitmap(resized_bmp);
+		al_draw_scaled_bitmap(bmp, 0, 0,
+			al_get_bitmap_width(bmp),
+			al_get_bitmap_height(bmp),
+			0, 0, width, height, 0);
+		al_set_target_bitmap(prev_target);
+		// Don't destroy bitmap here because they are video frames. 
+		// al_destroy_bitmap(bmp);
+		LOG(INFO) << "Set Resources<frame>: " << videoPath << " scaled to " << width << "x" << height;
+		bitmaps[idx] = std::shared_ptr<ALLEGRO_BITMAP>(resized_bmp, al_destroy_bitmap);
 	}
 	std::shared_ptr<ALLEGRO_FONT> Resources::GetFont(std::string name, int fontSize) {
 		std::string idx = name + '?' + std::to_string(fontSize);

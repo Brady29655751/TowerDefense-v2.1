@@ -7,6 +7,7 @@
 #include "LoseScene.hpp"
 #include "PlayScene.hpp"
 #include "StageSelectScene.hpp"
+#include "SynthesisScene.hpp"
 #include "WinScene.hpp"
 #include "MenuScene.hpp"
 
@@ -17,6 +18,7 @@ int main(int argc, char **argv) {
 	game.AddNewScene("play", new PlayScene());
 	game.AddNewScene("lose", new LoseScene());
 	game.AddNewScene("win", new WinScene());
+	game.AddNewScene("synthesis", new SynthesisScene());
 	game.AddNewScene("menu", new MenuScene());
 
 	// TODO 1 (1/2): Add a New Scene here and change the start scene below.

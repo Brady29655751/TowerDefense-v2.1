@@ -17,6 +17,8 @@ namespace Engine {
 	private:
 		// The path prefix for loading bitmaps.
 		static const std::string bitmapPathPrefix;
+		// The path prefix for video frames.
+		static const std::string videoPathPrefix;
 		// The path prefix for loading fonts.
 		static const std::string fontPathPrefix;
 		// The path prefix for loading samples.
@@ -73,6 +75,14 @@ namespace Engine {
 		/// <param name="height">The target height that we want the image to be resized to.</param>
 		/// <returns>The smart pointer of the bitmap.</returns>
 		std::shared_ptr<ALLEGRO_BITMAP> GetBitmap(std::string name, int width, int height);
+		/// <summary>
+		///  Set the video frame into unordered map of bitmaps, so we can draw the frame with Image.cpp.
+		/// </summary>
+		/// <param name="name">The name of the video frame. (Including extension and count)</param>
+		/// <param name="bitmap">The video frame we want to set.</param>
+		/// <param name="width">The target width that we want the frame to be resized to.</param>
+		/// <param name="height">The target height that we want the frame to be resized to.</param>
+		void SetBitmap(std::string name, ALLEGRO_BITMAP* bitmap, int width, int height);
 		/// <summary>
 		/// Get font pointer by name. The file should be put under "resources/fonts/".
 		/// </summary>

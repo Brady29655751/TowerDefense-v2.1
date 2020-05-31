@@ -21,6 +21,7 @@
 #include "ChineseLabel.hpp"
 #include "PlayScene.hpp"
 #include "StageSelectScene.hpp"
+#include "SynthesisScene.hpp"
 #include "Point.hpp"
 #include "Resources.hpp"
 #include "Slider.hpp"
@@ -48,7 +49,7 @@ void StageSelectScene::Initialize() {
 
         // New stuff.
         UI_img[i] = new Engine::Image("UI/White.png", w * i / UI_OPTION, h, w / UI_OPTION, 100, 0, 1);
-        UI_button[i] = new Engine::ImageButton("UI/black.png", "UI/white.png", w * i / UI_OPTION, h - 100, w / UI_OPTION, 100);
+        UI_button[i] = new Engine::ImageButton("UI/Black.png", "UI/White.png", w * i / UI_OPTION, h - 100, w / UI_OPTION, 100);
         UI_button[i]->SetOnClickCallback(std::bind(&StageSelectScene::OptionOnClick, this, i));
         UI_label[i] = new Engine::ChineseLabel(option_name[i], "SV.ttf", 48, w / 10 + i * w / 5, h - 50, 0, 153, 255, 255, 0.5, 0.5);
         UI_label_now[i] = new Engine::ChineseLabel(option_name[i], "SV.ttf", 48, w / 10 + i * w / 5, h - 50, 0, 0, 0, 255, 0.5, 0.5);
@@ -97,7 +98,7 @@ void StageSelectScene::Initialize() {
         STAGE[i] = new Group();
         // Basic stuff.
        img[i] = new Engine::Image("UI/White.png", 50, 50 + 100 * i, 200, 100);
-       button[i] = new Engine::ImageButton("UI/black.png", "UI/white.png", 50, 50 + 100 * i, 200, 100);
+       button[i] = new Engine::ImageButton("UI/Black.png", "UI/White.png", 50, 50 + 100 * i, 200, 100);
        button[i]->SetOnClickCallback(std::bind(&StageSelectScene::StageOnClick, this, i));
        label[i] = new Engine::Label(std::to_string(i + 1), "pirulen.ttf", 48, 150, 100 + 100 * i, 0, 153, 255, 255, 0.5, 0.5);
        description_pirulen[i] = new Engine::Label(stage_description[i], "pirulen.ttf", 48, 320, 110, 255, 255, 255, 255);
@@ -156,7 +157,7 @@ void StageSelectScene::Initialize() {
     }
     
     // An enter button to get in the stage.
-    enter = new Engine::ImageButton("UI/black.png", "UI/white.png", w - 450, h - 225, 400, 100);
+    enter = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 450, h - 225, 400, 100);
     enter->SetOnClickCallback(std::bind(&StageSelectScene::PlayOnClick, this));
     UI[PLAY]->AddNewControlObject(enter);
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"進入挑戰", "SV.ttf", 48, w - 250, h - 175, 0, 153, 255, 255, 0.5, 0.5));
@@ -172,7 +173,7 @@ void StageSelectScene::Initialize() {
         SYNTHESIS[i] = new Group();
         // Basic stuff.
         upgrade_img[i] = new Engine::Image("UI/White.png", 50, 50 + 100 * i, 200, 100);
-        upgrade_button[i] = new Engine::ImageButton("UI/black.png", "UI/white.png", 50, 50 + 100 * i, 200, 100);
+        upgrade_button[i] = new Engine::ImageButton("UI/Black.png", "UI/White.png", 50, 50 + 100 * i, 200, 100);
         upgrade_button[i]->SetOnClickCallback(std::bind(&StageSelectScene::ListOnClick, this, i));
         upgrade_label[i] = new Engine::Label(std::to_string(i + 1), "pirulen.ttf", 48, 150, 100 + 100 * i, 0, 153, 255, 255, 0.5, 0.5);
         upgrade_description_SV[i] = new Engine::Label(upgrade_description[i], "SV.ttf", 72, 320, 100, 255, 255, 255, 255);
@@ -212,14 +213,28 @@ void StageSelectScene::Initialize() {
         UI[UPGRADE]->AddNewObject(upgrade_label[i]);
     }
     // A button to click for upgrade.
-    upgrade_enter = new Engine::ImageButton("UI/black.png", "UI/white.png", w - 450, h - 225, 400, 100);
+    upgrade_enter = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 450, h - 225, 400, 100);
     upgrade_enter->SetOnClickCallback(std::bind(&StageSelectScene::UpgradeOnClick, this));
     UI[UPGRADE]->AddNewControlObject(upgrade_enter);
     UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"立刻合成", "SV.ttf", 48, w - 250, h - 175, 0, 153, 255, 255, 0.5, 0.5));
+    
     // Labels.
     UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"效果描述：", "SV.ttf", 48, 320, 190, 255, 153, 0, 255));
     UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"所需物品：", "SV.ttf", 48, 320, h - 515, 255, 153, 0, 255));
     UI[UPGRADE]->AddNewObject(new Engine::ChineseLabel(L"物品預覽：", "SV.ttf", 48, 1050, 130, 255, 153, 0, 255));
+   
+    // Not enough info.
+    UPGRADE_NOT_ENOUGH = new Group();
+    upgrade_not_enough_img = new Engine::Image("UI/Black.png", halfW, halfH, halfW, halfH, 0.5, 0.5);
+    upgrade_not_enough_button = new Engine::ImageButton("UI/Black.png", "UI/White.png", halfW, h * 3 / 4 - 150, 0, 0, 0.5, 0.5);
+    upgrade_not_enough_button->SetOnClickCallback(std::bind(&StageSelectScene::NotEnoughOnClick, this));
+    upgrade_not_enough_label = new Engine::ChineseLabel(L"＜道具數量不足＞", "SV.ttf", 48, halfW, h / 4 + 100, 255, 255, 255, 255, 0.5, 0.5);
+    upgrade_not_enough_back = new Engine::Label("Back", "pirulen.ttf", 48, halfW, h * 3 / 4 - 150, 0, 153, 255, 255, 0.5, 0.5);
+    UPGRADE_NOT_ENOUGH->AddNewObject(upgrade_not_enough_img);
+    UPGRADE_NOT_ENOUGH->AddNewObject(upgrade_not_enough_label);
+    UPGRADE_NOT_ENOUGH->AddNewControlObject(upgrade_not_enough_button);
+    UPGRADE_NOT_ENOUGH->AddNewObject(upgrade_not_enough_back);
+    UI[UPGRADE]->AddNewControlObject(UPGRADE_NOT_ENOUGH);
 
     /* Setting */
     // BGM Slider.
@@ -273,6 +288,13 @@ void StageSelectScene::Initialize() {
         enter->Visible = true;
         break;
     case UPGRADE:
+        for (int i = 0; i < SYNTHESIS_NUM; i++) {
+            bool is_chosen = (i == upgrade_choose);
+            SYNTHESIS[i]->Visible = is_chosen;
+            upgrade_button[i]->Visible = !is_chosen;
+        }
+        upgrade_enter->Visible = true;
+        UPGRADE_NOT_ENOUGH->Visible = false;
         break;
     case SETTING:
         back_to_menu->Visible = true;
@@ -358,6 +380,7 @@ void StageSelectScene::OptionOnClick(int UI_option) {
                     upgrade_button[i]->Visible = !is_chosen;
                 }
                 upgrade_enter->Visible = true;
+                UPGRADE_NOT_ENOUGH->Visible = false;
                 break;
             case SETTING:
                 back_to_menu->Visible = true;
@@ -428,7 +451,55 @@ void StageSelectScene::ListOnClick(int list) {
 }
 
 void StageSelectScene::UpgradeOnClick() {
+    // Check if we have enough items.
+    std::pair<int, int> info[ITEM_NUM];
+    for (int i = 1; i < ITEM_NUM; i++) {
+        int id = upgrade_data[upgrade_choose][i].first;
+        if (id == -1) {
+            break;
+        }
+        info[i].second = upgrade_data[upgrade_choose][i].second;  
+        info[i].first = (id_to_item[id] == -1) ? 0 : item_data[id_to_item[id]].second;
+        if (info[i].first < info[i].second) {
+            // Info: Not enough.
+            UPGRADE_NOT_ENOUGH->Visible = true;
+            return;
+        }
+    }
+    // Give the item.
+    for (int i = 1; i < ITEM_NUM; i++) {
+        int item_place = id_to_item[upgrade_data[upgrade_choose][i].first];
+        item_data[item_place].second -= info[i].second;
+        if (item_data[item_place].second <= 0) {
+            item_data[item_place].first = item_data[item_place].second = -1;
+        }
+    }
+    int id = upgrade_data[upgrade_choose][0].first;
+    if (id_to_item[id] == -1) {
+        for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
+            if (item_data[i].first == -1) {
+                item_data[i].first = id;
+                item_data[i].second = 1;
+                id_to_item[id] = i;
+                break;
+            }
+        }
+    }
+    else {
+        item_data[id_to_item[id]].second++;
+    }
+    
+    WriteItemData();
     // change to upgrade scene.
+    SynthesisScene* scene = dynamic_cast<SynthesisScene*>(Engine::GameEngine::GetInstance().GetScene("synthesis"));
+    scene->id = upgrade_data[upgrade_choose][0].first;
+    scene->video_opened = true;
+    scene->count = 0;
+    Engine::GameEngine::GetInstance().ChangeScene("synthesis");
+}
+
+void StageSelectScene::NotEnoughOnClick(){
+    UPGRADE_NOT_ENOUGH->Visible = false;
 }
 
 void StageSelectScene::BGMSlideOnValueChanged(float value) {
@@ -450,6 +521,18 @@ void StageSelectScene::ReadItemData() {
         id_to_item[item_data[i].first] = i;
     }
     fin.close();
+}
+
+void StageSelectScene::WriteItemData() {
+    std::string filename = "resources/data/item_data.txt";
+    std::ofstream fout(filename);
+    for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
+        int id = item_data[i].first;
+        int count = item_data[i].second;
+        if (id != -1) { 
+            fout << id << " " << count << std::endl;
+        }
+    }
 }
 
 void StageSelectScene::ReadItemNameData(){

@@ -51,6 +51,7 @@ public:
 	Group* ITEM[ITEM_TYPE_LIMIT];
 	Group* STAGE[STAGE_NUM];
 	Group* SYNTHESIS[STAGE_NUM];
+	Group* UPGRADE_NOT_ENOUGH;
 
 	Engine::Image* UI_img[UI_OPTION];
 	Engine::ImageButton* UI_button[UI_OPTION];
@@ -81,11 +82,15 @@ public:
 	bool cheat;
 	Engine::Image* upgrade_img[SYNTHESIS_NUM];  
 	Engine::Image* upgrade_item_img[SYNTHESIS_NUM][ITEM_NUM];
+	Engine::Image* upgrade_not_enough_img;
 	Engine::ImageButton* upgrade_button[SYNTHESIS_NUM];
 	Engine::ImageButton* upgrade_enter;
+	Engine::ImageButton* upgrade_not_enough_button;
 	Engine::Label* upgrade_label[SYNTHESIS_NUM];
 	Engine::Label* upgrade_description_SV[SYNTHESIS_NUM];
 	Engine::Label* upgrade_effect_description_SV[SYNTHESIS_NUM];
+	Engine::Label* upgrade_not_enough_back;
+	Engine::ChineseLabel* upgrade_not_enough_label;
 	std::pair<int, int> upgrade_data[SYNTHESIS_NUM][ITEM_NUM];
 	
 
@@ -102,9 +107,11 @@ public:
 	void PlayOnClick();
 	void ListOnClick(int list);
 	void UpgradeOnClick();
+	void NotEnoughOnClick();
 	void BGMSlideOnValueChanged(float value);
 	void SFXSlideOnValueChanged(float value);
 	void ReadItemData();
+	void WriteItemData();
 	void ReadItemNameData();
 	void ReadEnemyData();
 	void ReadDropData();

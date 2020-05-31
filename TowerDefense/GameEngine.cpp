@@ -3,6 +3,7 @@
 #include <allegro5/allegro_audio.h>
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_image.h>
+#include <allegro5/allegro_video.h>
 #include <allegro5/allegro_primitives.h>
 #include <allegro5/allegro_ttf.h>
 #include <chrono>
@@ -34,6 +35,7 @@ namespace Engine {
 		if (!al_install_audio()) throw Allegro5Exception("failed to initialize audio add-on");
 		if (!al_init_acodec_addon()) throw Allegro5Exception("failed to initialize audio codec add-on");
 		if (!al_reserve_samples(reserveSamples)) throw Allegro5Exception("failed to reserve samples");
+		if (!al_init_video_addon()) throw Allegro5Exception("failed to initialize video add-on");
 		// Can initialize other add-ons here, such as video, ...
 		// Install peripherals.
 		if (!al_install_keyboard()) throw Allegro5Exception("failed to install keyboard");

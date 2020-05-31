@@ -188,6 +188,7 @@
     <ClCompile Include="ChineseLabel.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="StageSelectScene.cpp" />
+    <ClCompile Include="SynthesisScene.cpp" />
     <ClCompile Include="TankEnemy.cpp" />
     <ClCompile Include="Turret.cpp" />
     <ClCompile Include="TurretButton.cpp" />
@@ -231,6 +232,7 @@
     <ClInclude Include="SoldierEnemy.hpp" />
     <ClInclude Include="Sprite.hpp" />
     <ClInclude Include="StageSelectScene.hpp" />
+    <ClInclude Include="SynthesisScene.hpp" />
     <ClInclude Include="TankEnemy.hpp" />
     <ClInclude Include="Turret.hpp" />
     <ClInclude Include="TurretButton.hpp" />
