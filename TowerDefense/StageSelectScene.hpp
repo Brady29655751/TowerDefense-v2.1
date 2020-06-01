@@ -37,7 +37,7 @@ private:
 	};
 	const wchar_t option_name[UI_OPTION][5] = { L"主  頁", L"背  包", L"戰  鬥", L"合  成", L"設  定" };
 	const std::string stage_description[STAGE_NUM] = {"Troposhere", "Stratosphere", "Mesosphere", "Thermosphere", "Exosphere", "Outerspace"};
-	const std::string upgrade_description[SYNTHESIS_NUM] = {"Laser Turret", "Missle Turret", "Rocket Turret", "Skip Ticket", "Unlock Stage 6", "Cheat Code"};
+	const std::string upgrade_description[SYNTHESIS_NUM] = {"Unlock Laser Turret", "Unlock Missle Turret", "Unlock Rocket Turret", "Skip Ticket", "Unlock Stage 6", "Cheat Code"};
 	const std::string upgrade_effect_description[SYNTHESIS_NUM] = { "Faster speed, higher damage.", "Automatically track enemies.", "Shoots 3 bullets every time.", "Let you skip battle once.", "Unlock the final stage.", "Tell you how to cheat." };
 	std::shared_ptr<ALLEGRO_SAMPLE_INSTANCE> bgmInstance;
 public:

@@ -13,6 +13,8 @@ public:
 	void Initialize() override;
 	void Terminate() override;
 	void StartOnClick();
+	void NewGameOnClick();
+	void ResetData();
 };
 
 #endif // MENUSCENE_HPP

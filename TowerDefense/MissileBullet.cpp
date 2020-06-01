@@ -14,7 +14,7 @@
 class Turret;
 
 MissileBullet::MissileBullet(Engine::Point position, Engine::Point forwardDirection, float rotation, Turret* parent) :
-	Bullet("play/bullet-3.png", 100, 4, position, forwardDirection, rotation + ALLEGRO_PI / 2, parent) {
+	Bullet("play/bullet-3.png", 100, 15, position, forwardDirection, rotation + ALLEGRO_PI / 2, parent) {
 }
 void MissileBullet::Update(float deltaTime) {
 	if (!Target) {

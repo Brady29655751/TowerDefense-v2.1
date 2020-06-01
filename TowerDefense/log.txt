@@ -6,7 +6,7 @@
 [INFO] Game begin
 [INFO] Loaded Resource<image>: resources/images/menu/menu_bg.png scaled to 1600x832
 [INFO] Loaded Resource<font>: resources/fonts/SV.ttf with size 72
-[INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 400x100
+[INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 500x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png
 [INFO] Loaded Resource<image>: resources/images/UI/White.png
 [INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 48
@@ -26,89 +26,63 @@
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 1500x657
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 100x100
 [INFO] Loaded Resource<image>: resources/images/UI/White.png scaled to 100x100
-[INFO] Loaded Resource<image>: resources/images/item/2.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/2.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/12.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/12.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/23.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/23.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/15.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/30.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/30.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 250x250
-[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 1290x657
 [INFO] Loaded Resource<image>: resources/images/UI/White.png scaled to 200x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 200x100
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_1.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/play/enemy-1.png
+[INFO] Loaded Resource<image>: resources/images/item/2.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/12.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/33.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/18.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/21.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/28.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_2.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/play/enemy-2.png
+[INFO] Loaded Resource<image>: resources/images/item/3.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/13.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/34.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/22.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/7.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/29.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_3.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/play/enemy-3.png
 [INFO] Loaded Resource<image>: resources/images/play/enemy-3-head.png
+[INFO] Loaded Resource<image>: resources/images/item/4.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/14.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/35.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/23.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/24.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/8.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/30.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_4.jpg scaled to 600x397
-[INFO] Loaded Resource<image>: resources/images/item/5.png scaled to 75x75
-[INFO] Loaded Resource<image>: resources/images/item/25.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/36.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/9.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/31.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_5.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/play/enemy-4.png
-[INFO] Loaded Resource<image>: resources/images/item/6.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/25.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/20.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/10.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/32.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/37.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/stage-select/map_preview_6.jpg scaled to 600x397
 [INFO] Loaded Resource<image>: resources/images/item/38.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/19.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/39.png scaled to 75x75
 [INFO] Loaded Resource<image>: resources/images/item/40.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/stage-select/locked.png scaled to 200x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 300x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 350x100
+[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 75x75
+[INFO] Loaded Resource<image>: resources/images/item/1.png scaled to 250x250
 [INFO] Loaded Resource<font>: resources/fonts/SV.ttf with size 32
 [INFO] Loaded Resource<image>: resources/images/item/27.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/26.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/17.png scaled to 250x250
 [INFO] Loaded Resource<image>: resources/images/item/11.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/item/16.png scaled to 250x250
+[INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 400x100
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 800x416
 [INFO] Loaded Resource<image>: resources/images/UI/Black.png scaled to 550x350
 [INFO] Loaded Resource<image>: resources/images/stage-select/slider.png
@@ -117,3 +91,94 @@
 [INFO] Loaded Resource<image>: resources/images/stage-select/end.png
 [INFO] Loaded Resource<font>: resources/fonts/pirulen.ttf with size 28
 [INFO] Changed to stage-select scene
+[INFO] stopped audio (sample)
+[INFO] Created<sample_instance>: resources/audios/BGM/King_Main.ogg
+[INFO] Changed to menu scene
+[INFO] Game Terminating...
+[INFO] stopped audio (sample)
+[INFO] Game terminated
+[INFO] Game end
+[INFO] Destroyed Resource<image>: stage-select/Benjamin.png?1600x632
+[INFO] Destroyed Resource<image>: icon.png
+[INFO] Destroyed Resource<image>: UI/Black.png?320x100
+[INFO] Destroyed Resource<image>: item/40.png?75x75
+[INFO] Destroyed Resource<image>: item/13.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png?500x100
+[INFO] Destroyed Resource<image>: item/30.png?75x75
+[INFO] Destroyed Resource<image>: menu/menu_bg.png?1600x832
+[INFO] Destroyed Resource<image>: item/34.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png
+[INFO] Destroyed Resource<image>: item/1.png?250x250
+[INFO] Destroyed Resource<image>: item/25.png?75x75
+[INFO] Destroyed Resource<image>: UI/White.png
+[INFO] Destroyed Resource<image>: item/14.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png?200x100
+[INFO] Destroyed Resource<image>: stage-select/stage_select_bg.jpg?1600x832
+[INFO] Destroyed Resource<image>: UI/White.png?320x100
+[INFO] Destroyed Resource<image>: item/36.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png?1920x100
+[INFO] Destroyed Resource<image>: item/4.png?75x75
+[INFO] Destroyed Resource<image>: UI/White.png?100x100
+[INFO] Destroyed Resource<image>: UI/Black.png?1500x657
+[INFO] Destroyed Resource<image>: item/31.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png?100x100
+[INFO] Destroyed Resource<image>: UI/Black.png?1290x657
+[INFO] Destroyed Resource<image>: item/7.png?75x75
+[INFO] Destroyed Resource<image>: item/12.png?75x75
+[INFO] Destroyed Resource<image>: UI/White.png?200x100
+[INFO] Destroyed Resource<image>: stage-select/map_preview_1.jpg?600x397
+[INFO] Destroyed Resource<image>: item/33.png?75x75
+[INFO] Destroyed Resource<image>: UI/Black.png?300x100
+[INFO] Destroyed Resource<image>: item/24.png?75x75
+[INFO] Destroyed Resource<image>: play/enemy-1.png
+[INFO] Destroyed Resource<image>: item/17.png?75x75
+[INFO] Destroyed Resource<image>: item/2.png?75x75
+[INFO] Destroyed Resource<image>: item/18.png?75x75
+[INFO] Destroyed Resource<image>: item/21.png?75x75
+[INFO] Destroyed Resource<image>: item/28.png?75x75
+[INFO] Destroyed Resource<image>: item/3.png?75x75
+[INFO] Destroyed Resource<image>: stage-select/map_preview_2.jpg?600x397
+[INFO] Destroyed Resource<image>: stage-select/map_preview_6.jpg?600x397
+[INFO] Destroyed Resource<image>: play/enemy-2.png
+[INFO] Destroyed Resource<image>: item/22.png?75x75
+[INFO] Destroyed Resource<image>: item/29.png?75x75
+[INFO] Destroyed Resource<image>: stage-select/map_preview_3.jpg?600x397
+[INFO] Destroyed Resource<image>: play/enemy-3.png
+[INFO] Destroyed Resource<image>: play/enemy-4.png
+[INFO] Destroyed Resource<image>: play/enemy-3-head.png
+[INFO] Destroyed Resource<image>: item/35.png?75x75
+[INFO] Destroyed Resource<image>: item/27.png?250x250
+[INFO] Destroyed Resource<image>: item/23.png?75x75
+[INFO] Destroyed Resource<image>: item/8.png?75x75
+[INFO] Destroyed Resource<image>: item/32.png?75x75
+[INFO] Destroyed Resource<image>: stage-select/map_preview_4.jpg?600x397
+[INFO] Destroyed Resource<image>: item/9.png?75x75
+[INFO] Destroyed Resource<image>: stage-select/map_preview_5.jpg?600x397
+[INFO] Destroyed Resource<image>: item/20.png?75x75
+[INFO] Destroyed Resource<image>: item/10.png?75x75
+[INFO] Destroyed Resource<image>: item/37.png?75x75
+[INFO] Destroyed Resource<image>: item/38.png?75x75
+[INFO] Destroyed Resource<image>: item/19.png?75x75
+[INFO] Destroyed Resource<image>: item/39.png?75x75
+[INFO] Destroyed Resource<image>: stage-select/locked.png?200x100
+[INFO] Destroyed Resource<image>: UI/Black.png?350x100
+[INFO] Destroyed Resource<image>: item/26.png?250x250
+[INFO] Destroyed Resource<image>: item/17.png?250x250
+[INFO] Destroyed Resource<image>: item/11.png?250x250
+[INFO] Destroyed Resource<image>: item/16.png?250x250
+[INFO] Destroyed Resource<image>: UI/Black.png?400x100
+[INFO] Destroyed Resource<image>: UI/Black.png?800x416
+[INFO] Destroyed Resource<image>: UI/Black.png?550x350
+[INFO] Destroyed Resource<image>: stage-select/slider.png
+[INFO] Destroyed Resource<image>: stage-select/slider-blue.png
+[INFO] Destroyed Resource<image>: stage-select/bar.png?190x4
+[INFO] Destroyed Resource<image>: stage-select/end.png
+[INFO] Destroyed Resource<font>: SV.ttf?72
+[INFO] Destroyed Resource<font>: pirulen.ttf?48
+[INFO] Destroyed Resource<font>: SV.ttf?48
+[INFO] Destroyed Resource<font>: SV.ttf?32
+[INFO] Destroyed Resource<font>: pirulen.ttf?28
+[INFO] Destroyed<sample_instance>: BGM/King_Main.ogg
+[INFO] Destroyed<sample_instance>: select.ogg
+[INFO] Destroyed Resource<audio>: BGM/King_Main.ogg
+[INFO] Destroyed Resource<audio>: select.ogg

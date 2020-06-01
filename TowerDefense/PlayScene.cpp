@@ -28,6 +28,7 @@
 #include "Resources.hpp"
 #include "Sprite.hpp"
 #include "SoldierEnemy.hpp"
+#include "StageSelectScene.hpp"
 #include "PlaneEnemy.hpp"
 #include "TankEnemy.hpp"
 #include "CommanderEnemy.hpp"
@@ -59,7 +60,7 @@ void PlayScene::Initialize() {
 	ticks = 0;
 	deathCountDown = -1;
 	lives = 10;
-	money = 150;
+	money = 250;
 	SpeedMult = 1;
 	// Add groups from bottom to top.
 	AddNewObject(TileMapGroup = new Group());
@@ -384,6 +385,7 @@ void PlayScene::ReadEnemyWave() {
 	fin.close();
 }
 void PlayScene::ConstructUI() {
+	StageSelectScene* stage_select_scene = dynamic_cast<StageSelectScene*>(Engine::GameEngine::GetInstance().GetScene("stage-select"));
 	// Background
 	UIGroup->AddNewObject(new Engine::Image("play/sand.png", 1280, 0, 320, 832));
 	// Text
@@ -401,29 +403,35 @@ void PlayScene::ConstructUI() {
 	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 0));
 	UIGroup->AddNewControlObject(btn);
 	// Button 2
-	btn = new TurretButton("play/floor.png", "play/dirt.png",
-		Engine::Sprite("play/tower-base.png", 1370, 136, 0, 0, 0, 0),
-		Engine::Sprite("play/turret-2.png", 1370, 136 - 8, 0, 0, 0, 0)
-		, 1370, 136, LaserTurret::Price);
-	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 1));
-	UIGroup->AddNewControlObject(btn);
+	if (stage_select_scene->id_to_item[1] != -1) {
+		btn = new TurretButton("play/floor.png", "play/dirt.png",
+			Engine::Sprite("play/tower-base.png", 1370, 136, 0, 0, 0, 0),
+			Engine::Sprite("play/turret-2.png", 1370, 136 - 8, 0, 0, 0, 0)
+			, 1370, 136, LaserTurret::Price);
+		btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 1));
+		UIGroup->AddNewControlObject(btn);
+	}
 	// Button 3
-	btn = new TurretButton("play/floor.png", "play/dirt.png",
-		Engine::Sprite("play/tower-base.png", 1446, 136, 0, 0, 0, 0),
-		Engine::Sprite("play/turret-3.png", 1446, 136, 0, 0, 0, 0)
-		, 1446, 136, MissileTurret::Price);
-	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 2));
-	UIGroup->AddNewControlObject(btn);
+	if (stage_select_scene->id_to_item[27] != -1) {
+		btn = new TurretButton("play/floor.png", "play/dirt.png",
+			Engine::Sprite("play/tower-base.png", 1446, 136, 0, 0, 0, 0),
+			Engine::Sprite("play/turret-3.png", 1446, 136, 0, 0, 0, 0)
+			, 1446, 136, MissileTurret::Price);
+		btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 2));
+		UIGroup->AddNewControlObject(btn);
+	}
 	// TODO 2 (3/8): Create a button to support constructing the 4th tower.
 	// --> Done.
 	// Button 4
-	btn = new TurretButton("play/floor.png", "play/dirt.png",
-		Engine::Sprite("play/tower-base.png", 1522, 136, 0, 0, 0, 0),
-		Engine::Sprite("play/turret-4.png", 1522, 136, 0, 0, 0, 0)
-		, 1522, 136, RocketTurret::Price);
-	btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 3));
-	UIGroup->AddNewControlObject(btn);
-
+	if (stage_select_scene->id_to_item[26] != -1) {
+		btn = new TurretButton("play/floor.png", "play/dirt.png",
+			Engine::Sprite("play/tower-base.png", 1522, 136, 0, 0, 0, 0),
+			Engine::Sprite("play/turret-4.png", 1522, 136, 0, 0, 0, 0)
+			, 1522, 136, RocketTurret::Price);
+		btn->SetOnClickCallback(std::bind(&PlayScene::UIBtnClicked, this, 3));
+		UIGroup->AddNewControlObject(btn);
+	}
+	
 	// Danger Indicator.
 	int w = Engine::GameEngine::GetInstance().GetScreenSize().x;
 	int h = Engine::GameEngine::GetInstance().GetScreenSize().y;

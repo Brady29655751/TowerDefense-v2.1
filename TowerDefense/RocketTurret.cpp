@@ -9,9 +9,9 @@
 #include "PlayScene.hpp"
 #include "Point.hpp"
 
-const int RocketTurret::Price = 125;
+const int RocketTurret::Price = 500;
 RocketTurret::RocketTurret(float x, float y) :
-	Turret("play/tower-base.png", "play/turret-4.png", x, y, 100, Price, 1) {
+	Turret("play/tower-base.png", "play/turret-4.png", x, y, 100, Price, 0.2) {
 }
 void RocketTurret::CreateBullet() {
 	Engine::Point diff = Engine::Point(cos(Rotation - ALLEGRO_PI / 2), sin(Rotation - ALLEGRO_PI / 2));

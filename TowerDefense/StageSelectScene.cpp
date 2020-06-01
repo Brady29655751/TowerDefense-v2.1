@@ -160,7 +160,12 @@ void StageSelectScene::Initialize() {
        UI[PLAY]->AddNewObject(STAGE[i]);
        UI[PLAY]->AddNewObject(label[i]);  // Also, the order matters.
     }
-    
+    // Lock stage 6 if the player doesn't have the ticket for stage 6.
+    // The id of stage_6 ticket is 11. 
+    if (id_to_item[11] == -1) {
+        UI[PLAY]->AddNewObject(new Engine::Image("stage-select/locked.png", 50, 50 + 100 * (STAGE_NUM - 1), 200, 100));
+    }
+
     // Extra buttons.
     enter = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 350, h - 225, 300, 100);
     enter->SetOnClickCallback(std::bind(&StageSelectScene::PlayOnClick, this));
@@ -188,7 +193,7 @@ void StageSelectScene::Initialize() {
         upgrade_button[i] = new Engine::ImageButton("UI/Black.png", "UI/White.png", 50, 50 + 100 * i, 200, 100);
         upgrade_button[i]->SetOnClickCallback(std::bind(&StageSelectScene::ListOnClick, this, i));
         upgrade_label[i] = new Engine::Label(std::to_string(i + 1), "pirulen.ttf", 48, 150, 100 + 100 * i, 0, 153, 255, 255, 0.5, 0.5);
-        upgrade_description_SV[i] = new Engine::Label(upgrade_description[i], "SV.ttf", 72, 320, 100, 255, 255, 255, 255);
+        upgrade_description_SV[i] = new Engine::Label(upgrade_description[i], "SV.ttf", 72, 305, 100, 255, 0, 255, 255);
         upgrade_effect_description_SV[i] = new Engine::Label(upgrade_effect_description[i], "SV.ttf", 48, 320, 255, 255, 255, 255, 255);
 
         for (int j = 0; j < ITEM_NUM; j++) {
@@ -285,10 +290,12 @@ void StageSelectScene::Initialize() {
     case HOME:
         break;
     case BAG:
-        for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
-            bool is_chosen = (i == item_choose);
-            ITEM[i]->Visible = is_chosen;
-            bag_button[i]->Visible = !is_chosen;
+        item_choose = 0;
+        ITEM[0]->Visible = true;
+        bag_button[0]->Visible = false;
+        for (int i = 1; i < ITEM_TYPE_LIMIT; i++) {
+            ITEM[i]->Visible = false;
+            bag_button[i]->Visible = true;
         }
         break;
     case PLAY:
@@ -299,6 +306,9 @@ void StageSelectScene::Initialize() {
         }
         enter->Visible = true;
         skip->Visible = true;
+        if (id_to_item[11] == -1) {
+            button[STAGE_NUM - 1]->Visible = false;
+        }
         break;
     case UPGRADE:
         for (int i = 0; i < SYNTHESIS_NUM; i++) {
@@ -372,10 +382,12 @@ void StageSelectScene::OptionOnClick(int UI_option) {
             case HOME:
                 break;
             case BAG:
-                for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
-                    bool is_chosen = (i == item_choose);
-                    ITEM[i]->Visible = is_chosen;
-                    bag_button[i]->Visible = !is_chosen;
+                item_choose = 0;
+                ITEM[0]->Visible = true;
+                bag_button[0]->Visible = false;
+                for (int i = 1; i < ITEM_TYPE_LIMIT; i++) {
+                    ITEM[i]->Visible = false;
+                    bag_button[i]->Visible = true;
                 }
                 break;
             case PLAY:
@@ -386,6 +398,9 @@ void StageSelectScene::OptionOnClick(int UI_option) {
                 }
                 enter->Visible = true;
                 skip->Visible = true;
+                if (id_to_item[11] == -1) {
+                    button[STAGE_NUM - 1]->Visible = false;
+                }
                 break;
             case UPGRADE:
                 for (int i = 0; i < SYNTHESIS_NUM; i++) {
