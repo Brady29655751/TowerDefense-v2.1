@@ -61,6 +61,11 @@ void StageSelectScene::Initialize() {
         AddNewObject(UI_label[i]);
         AddNewObject(UI_label_now[i]);
     }
+    /* Home */
+    UI[HOME]->AddNewObject(new Engine::Image("stage-select/Benjamin.png", 0, 100, w, h - 200, 0, 0));
+    UI[HOME]->AddNewObject(new Engine::Image("UI/Black.png", w / 2, 50, w * 6 / 5, 100, 0.5, 0.5));
+    UI[HOME]->AddNewObject(new Engine::Label("Welcome to Tower Defense.", "SV.ttf", 72, w / 2, 50, 255, 255, 255, 255, 0.5, 0.5));
+
     /* Bag */
     ReadItemData();
     ReadItemNameData();
@@ -156,11 +161,18 @@ void StageSelectScene::Initialize() {
        UI[PLAY]->AddNewObject(label[i]);  // Also, the order matters.
     }
     
-    // An enter button to get in the stage.
-    enter = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 450, h - 225, 400, 100);
+    // Extra buttons.
+    enter = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 350, h - 225, 300, 100);
     enter->SetOnClickCallback(std::bind(&StageSelectScene::PlayOnClick, this));
     UI[PLAY]->AddNewControlObject(enter);
-    UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"進入挑戰", "SV.ttf", 48, w - 250, h - 175, 0, 153, 255, 255, 0.5, 0.5));
+    UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"進入挑戰", "SV.ttf", 48, w - 200, h - 175, 0, 153, 255, 255, 0.5, 0.5));
+    
+    skip = new Engine::ImageButton("UI/Black.png", "UI/White.png", w - 700, h - 225, 350, 100);
+    skip->SetOnClickCallback(std::bind(&StageSelectScene::SkipOnClick, this));
+    UI[PLAY]->AddNewControlObject(skip);
+    UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"掃蕩１次", "SV.ttf", 48, w - 570, h - 175, 0, 153, 255, 255, 0.5, 0.5));
+    UI[PLAY]->AddNewObject(new Engine::Image("item/" + std::to_string(17) + ".png", w - 420, h - 175, 75, 75, 0.5, 0.5));
+
     // Labels.
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"敵人：", "SV.ttf", 48, 320, 185, 255, 153, 0, 255));
     UI[PLAY]->AddNewObject(new Engine::ChineseLabel(L"掉落物品：", "SV.ttf", 48, 320, h - 455, 255, 153, 0, 255));
@@ -286,6 +298,7 @@ void StageSelectScene::Initialize() {
             button[i]->Visible = !is_chosen;
         }
         enter->Visible = true;
+        skip->Visible = true;
         break;
     case UPGRADE:
         for (int i = 0; i < SYNTHESIS_NUM; i++) {
@@ -372,6 +385,7 @@ void StageSelectScene::OptionOnClick(int UI_option) {
                     button[i]->Visible = !is_chosen;
                 }
                 enter->Visible = true;
+                skip->Visible = true;
                 break;
             case UPGRADE:
                 for (int i = 0; i < SYNTHESIS_NUM; i++) {
@@ -428,6 +442,24 @@ void StageSelectScene::StageOnClick(int stage) {
     }
     else {
         Engine::LOG(Engine::ERROR) << "Chosen stage is out of range.";
+    }
+}
+
+void StageSelectScene::SkipOnClick() {
+    // Check if player holds skip tickets. Skip tickets ID: 17.
+    int item_place = id_to_item[17];
+    if (item_place == -1) {
+        UPGRADE_NOT_ENOUGH->Visible = true;
+        return;
+    }
+    else {
+        item_data[item_place].second--;
+        if (item_data[item_place].second <= 0) {
+            item_data[item_place].first = item_data[item_place].second = -1;
+            id_to_item[17] = -1;
+        }
+        WriteItemData();
+        Engine::GameEngine::GetInstance().ChangeScene("win");
     }
 }
 
@@ -516,6 +548,9 @@ void StageSelectScene::ReadItemData() {
     for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
         item_data[i].first = item_data[i].second = id_to_item[i] = -1;
     }
+    // Remember the boundary. id_to_item has (ITEM_TYPE_LIMIT + 1) space.
+    id_to_item[ITEM_TYPE_LIMIT] = -1; 
+
     std::ifstream fin(filename);
     for (int i = 0; i < ITEM_TYPE_LIMIT; i++) {
         fin >> item_data[i].first >> item_data[i].second;

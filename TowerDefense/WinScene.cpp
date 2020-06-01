@@ -64,7 +64,7 @@ void WinScene::GenerateDropItem() {
 	// Count types of drop items.
 	int drop_type_num;
 	for (drop_type_num = 0; drop_type_num < ITEM_NUM; drop_type_num++) {
-		if (!stage_select_scene->drop_data[play_scene->MapId - 1][drop_type_num].first) {
+		if (!stage_select_scene->drop_data[stage_select_scene->choose][drop_type_num].first) {
 			break;
 		}  
 	}  // if nothing will drop, return.
@@ -79,7 +79,7 @@ void WinScene::GenerateDropItem() {
 	std::uniform_int_distribution<std::mt19937::result_type> dist(0, 100 * power - 1); 
 	for (int i = 0; i < drop_type_num; i++) {
 		int num = dist(rng);
-		std::pair<int, int> drop_item_info = stage_select_scene->drop_data[play_scene->MapId - 1][i];
+		std::pair<int, int> drop_item_info = stage_select_scene->drop_data[stage_select_scene->choose][i];
 		int id = drop_item_info.first;
 		int rate = drop_item_info.second;
 		if (num < rate * power) {

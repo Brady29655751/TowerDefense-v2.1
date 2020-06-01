@@ -72,6 +72,7 @@ public:
 	Engine::Image* drop[STAGE_NUM][ITEM_NUM];  // things that drop when win.
 	Engine::ImageButton* button[STAGE_NUM];  // stage button.
 	Engine::ImageButton* enter;
+	Engine::ImageButton* skip;
 	Engine::Label* label[STAGE_NUM];   // stage number label.
 	Engine::Label* description_pirulen[STAGE_NUM];   // stage name label.
 	Engine::Enemy* enemy[ENEMY_NUM];   // The enemies appear in the stage.
@@ -104,6 +105,7 @@ public:
 	void MenuOnClick();
 	void ItemOnClick(int item_place);
 	void StageOnClick(int stage);
+	void SkipOnClick();
 	void PlayOnClick();
 	void ListOnClick(int list);
 	void UpgradeOnClick();
